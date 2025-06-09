@@ -33,6 +33,12 @@
   id: EnergySabre
 
 - type: Tag
+  id: CombatBoots
+
+- type: Tag
+  id: HighHeelBoots
+
+- type: Tag
   id: ShirtlessClothing
 
 - type: Tag
