@@ -34,9 +34,6 @@
         base:
           Primed: { state: primed }
           Unprimed: { state: complete }
-  - type: Tag
-    tags:
-    - EnvelopeFiller
 
 - type: entity
   name: composition C-4
