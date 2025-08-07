@@ -1972,6 +1972,9 @@
       # - PlushieNoticeableSecurityOfficer
       - PlushieAvaliHOP
       - PlushieKoboldCefJustice
+      - PlushieSlimeBartender
+      - PlushieGrumpyQuartermaster
+      - PlushieHardcoreDj
       #Floof Plushies - End
   - type: EmagLatheRecipes
     emagStaticRecipes:

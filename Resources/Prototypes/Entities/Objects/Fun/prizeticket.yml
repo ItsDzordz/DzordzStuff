@@ -414,6 +414,15 @@
       - id: PlushieAvaliHOP 
         prob: 0.50
         orGroup: Prize
+      - id: PlushieSlimeBartender 
+        prob: 0.50
+        orGroup: Prize
+      - id: PlushieGrumpyQuartermaster 
+        prob: 0.50
+        orGroup: Prize
+      - id: PlushieHardcoreDj 
+        prob: 0.50
+        orGroup: Prize
       # Floof - End
       # Rare
       - id: PlushieAbductorAgent
