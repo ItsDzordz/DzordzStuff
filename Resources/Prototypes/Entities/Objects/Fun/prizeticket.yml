@@ -423,6 +423,9 @@
       - id: PlushieHardcoreDj 
         prob: 0.50
         orGroup: Prize
+      - id: PlushieHos
+        prob: 0.50
+        orGroup: Prize
       # Floof - End
       # Rare
       - id: PlushieAbductorAgent
