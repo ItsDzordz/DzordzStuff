@@ -383,7 +383,7 @@
 - type: entity
   parent: PlushieHuman
   id: PlushieSlimeBartender
-  name: Slime Bartender plushie
+  name: Slimetender plushie
   description: A bartender plushie, this one is all slimey. It smells like oranges and cheap cologne.
   components:
   - type: Sprite
