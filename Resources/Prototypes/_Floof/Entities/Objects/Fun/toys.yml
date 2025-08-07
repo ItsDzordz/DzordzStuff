@@ -456,20 +456,20 @@
     delay: 3.0
   - type: EmitSoundOnUse
     sound:
-      path: /Audio/Nyanotrasen/Voice/Felinid/cat_meow3.ogg
+      path: /Audio/Nyanotrasen/Voice/Felinid/cat_purr1.ogg
       params:
         volume: 1
   - type: EmitSoundOnLand
     sound:
-      path: /Audio/Nyanotrasen/Voice/Felinid/cat_purr1.ogg
+      path: /Audio/Nyanotrasen/Voice/Felinid/cat_meow3.ogg
   - type: EmitSoundOnActivate
     sound:
-      path: /Audio/Nyanotrasen/Voice/Felinid/cat_meow3.ogg
+      path: /Audio/Nyanotrasen/Voice/Felinid/cat_purr1.ogg
       params:
         volume: 1
   - type: MeleeWeapon
     soundHit:
-      path: /Audio/Nyanotrasen/Voice/Felinid/cat_purr1.ogg
+      path: /Audio/Nyanotrasen/Voice/Felinid/cat_meow3.ogg
       params:
         variation: 0.05
         volume: 4
