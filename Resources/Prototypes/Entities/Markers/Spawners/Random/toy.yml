@@ -102,6 +102,7 @@
       chance: 0.5
       offset: 0.2
 
+
 - type: entity
   name: Prize Figurine Spawner
   id: FigureSpawner
