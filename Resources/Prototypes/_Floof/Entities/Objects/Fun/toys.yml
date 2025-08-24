@@ -772,7 +772,7 @@
         volume: 2
   - type: EmitSoundOnLand
     sound:
-      path: /Audio/Effects/sparks1.ogg
+      path: /Audio/Effects/sparks4.ogg
   - type: EmitSoundOnActivate
     sound:
       path: /Audio/Animals/fox_squeak.ogg
@@ -780,7 +780,7 @@
         volume: 2
   - type: MeleeWeapon
     soundHit:
-      path: /Audio/Effects/sparks1.ogg
+      path: /Audio/Effects/sparks4.ogg
       params:
         variation: 0.05
         volume: 4
