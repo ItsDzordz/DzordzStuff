@@ -879,6 +879,36 @@
         variation: 0.05
         volume: 4
 
+- type: entity
+  parent: PlushieHuman
+  id: PlushieTiredCargoTechPlushie
+  name: Tired cargo tech plushie
+  description: Smells like welding fuel. A tag on the side says it’s made from recycled materials. Manufactured by AR.
+  components:
+  - type: Sprite
+    sprite: _Floof/Objects/Fun/floof_plush.rsi
+    state: tiredcargo
+  - type: UseDelay
+    delay: 3.0
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Voice/Arachnid/arachnid_chitter.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Voice/Arachnid/arachnid_chitter.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Voice/Arachnid/arachnid_scream.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Voice/Arachnid/arachnid_scream.ogg
+      params:
+        variation: 0.05
+        volume: 4
 
 # Banned individual
 # - type: entity

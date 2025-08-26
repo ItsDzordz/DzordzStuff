@@ -460,6 +460,9 @@
       - id: PlushieHawaiianShirtDoggo
         prob: 0.50
         orGroup: Prize
+      - id: PlushieTiredCargoTechPlushie
+        prob: 0.50
+        orGroup: Prize
 
       # Floof - End
       # Rare
