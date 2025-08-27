@@ -759,7 +759,7 @@
   parent: PlushieHuman
   id: PlushieEldritchCaptain
   name: Eldritch captain plushie
-  description: This odd plushie semi seems to be watching you somehow, and its eyes glow in the dark? Wait why can it do th-
+  description: This odd plushie semi-seems to be watching you somehow, and its eyes glow in the dark... Wait, why can it do th-
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
