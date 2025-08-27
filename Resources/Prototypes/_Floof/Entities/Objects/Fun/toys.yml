@@ -852,7 +852,7 @@
   parent: PlushieHuman
   id: PlushieHawaiianShirtDoggo
   name: Hawaiian shirt doggo plushie
-  description: A plushie of a vulp wearing a red hawaiian shirt and a toothy grin, smells like oranges.
+  description: A plushie of a vulp wearing a red hawaiian shirt and a toothy grin. Smells like oranges.
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
