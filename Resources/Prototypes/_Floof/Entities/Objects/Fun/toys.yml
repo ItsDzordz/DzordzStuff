@@ -666,7 +666,7 @@
   parent: PlushieHuman
   id: PlushieERTFox
   name: ERT fox plushie
-  description: Smells faintly of coffee and sterile surgical tools. She looks tired..
+  description: Smells faintly of coffee and sterile surgical tools. She looks tired...
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
