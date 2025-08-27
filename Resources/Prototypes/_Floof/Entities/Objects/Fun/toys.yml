@@ -821,7 +821,7 @@
   parent: PlushieHuman
   id: PlushieTruePirateCaptain
   name: True Pirate Captain Plushie
-  description: I'm the Captain now... this plushie seems to be covered with rust.
+  description: I'm the Captain now... This plushie seems to be covered with rust.
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
