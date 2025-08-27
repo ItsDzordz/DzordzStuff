@@ -635,7 +635,7 @@
   parent: [PlushieHuman, BaseFleshlight]
   id: PlushieBunnyStressRelief
   name: Bunny stress relief plushie
-  description: The plushie smells sweet, feels super soft to touch. Great for relieving stress in every way. 
+  description: This plushie smells sweet and feels super soft to the touch. Great for relieving stress in every way. 
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
