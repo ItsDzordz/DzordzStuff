@@ -728,7 +728,7 @@
   parent: PlushieHuman
   id: PlushieArachneNobility
   name: Arachne Nobility Plushie
-  description: Soft as spider silk arachne plushie here to to be of assistance. Do not poke, submit to them poking you instead!
+  description: Soft as spider silk, this arachne plushie is here to be of assistance. Do not poke, submit to them poking you instead!
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
