@@ -790,7 +790,7 @@
   parent: PlushieHuman
   id: PlushieLargeTailedFox
   name: Large-tailed fox plushie
-  description: An eternally warm plushie with a massive and fluffy tail. It's practically begging to be carried around. Comes with a miniature defibrillator! Manufactured by Donk Co. in cooperation with Interdyne Pharmaceuticals.
+  description: A perpetually warm plushie with a massive and fluffy tail. It's practically begging to be carried around. Comes with a miniature defibrillator! Manufactured by Donk Co. in cooperation with Interdyne Pharmaceuticals.
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
