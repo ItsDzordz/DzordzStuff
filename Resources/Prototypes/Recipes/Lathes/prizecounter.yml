@@ -896,6 +896,7 @@
   materials:
     PrizeTicket: 50
 
+
 # HypnoTemp Plushies - Start
 - type: latheRecipe
   id: PlushieHypnoTempCap
