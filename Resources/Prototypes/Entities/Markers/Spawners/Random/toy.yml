@@ -110,7 +110,9 @@
         - PlushieTruePirateCaptain
         - PlushieHawaiianShirtDoggo
         - PlushieTiredCargoTechPlushie
-        
+        - PlushieUnholyRed
+        - PlushieDetectiveKitty
+        - PlushieUrsineGal
         # Floof Plushies End
       chance: 0.5
       offset: 0.2

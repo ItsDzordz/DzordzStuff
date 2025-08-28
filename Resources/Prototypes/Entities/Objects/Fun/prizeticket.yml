@@ -463,6 +463,15 @@
       - id: PlushieTiredCargoTechPlushie
         prob: 0.50
         orGroup: Prize
+      - id: PlushieUnholyRed
+        prob: 0.50
+        orGroup: Prize
+      - id: PlushieDetectiveKitty
+        prob: 0.50
+        orGroup: Prize
+      - id: PlushieUrsineGal
+        prob: 0.50
+        orGroup: Prize
 
       # Floof - End
       # Rare

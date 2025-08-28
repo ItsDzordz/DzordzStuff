@@ -910,6 +910,99 @@
         variation: 0.05
         volume: 4
 
+- type: entity
+  parent: PlushieHuman
+  id: PlushieUnholyRed
+  name: Unholy red plushie
+  description: Good grief its the red.
+  components:
+  - type: Sprite
+    sprite: _Floof/Objects/Fun/floof_plush.rsi
+    state: unholyred
+  - type: UseDelay
+    delay: 3.0
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Effects/metal_break3.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Effects/metal_break3.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Voice/Slime/slime_squish.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Voice/Slime/slime_squish.ogg
+      params:
+        variation: 0.05
+        volume: 4
+
+- type: entity
+  parent: PlushieHuman
+  id: PlushieDetectiveKitty
+  name: Detective kitty plushie
+  description: A cute, and rather generic looking kitty with a little fedora and a rather rough looking detective's trench coat! It smells faintly of bluespace...
+  components:
+  - type: Sprite
+    sprite: _Floof/Objects/Fun/floof_plush.rsi
+    state: detective
+  - type: UseDelay
+    delay: 3.0
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Nyanotrasen/Voice/Felinid/cat_meow1.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Nyanotrasen/Voice/Felinid/cat_meow1.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Nyanotrasen/Voice/Felinid/cat_scream2.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Nyanotrasen/Voice/Felinid/cat_scream2.ogg
+      params:
+        variation: 0.05
+        volume: 4
+
+- type: entity
+  parent: PlushieHuman
+  id: PlushieUrsineGal
+  name: Ursine gal plushie
+  description: Its surprisingly soft and squeezable. Smells of xenos.
+  components:
+  - type: Sprite
+    sprite: _Floof/Objects/Fun/floof_plush.rsi
+    state: ursinegal
+  - type: UseDelay
+    delay: 3.0
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Animals/bear.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Animals/bear.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Weapons/Xeno/alien_claw_flesh3.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Weapons/Xeno/alien_claw_flesh3.ogg
+      params:
+        variation: 0.05
+        volume: 4
+
 # Banned individual
 # - type: entity
 #   parent: PlushieHuman
