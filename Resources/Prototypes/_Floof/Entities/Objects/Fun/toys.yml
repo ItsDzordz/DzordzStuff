@@ -945,7 +945,7 @@
   parent: PlushieHuman
   id: PlushieDetectiveKitty
   name: Detective kitty plushie
-  description: A cute, and rather generic looking kitty with a little fedora and a rather rough looking detective's trench coat! It smells faintly of bluespace...
+  description: A cute and rather generic-looking kitty with a little fedora and a rather rough-looking detective's trench coat! It smells faintly of bluespace...
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
