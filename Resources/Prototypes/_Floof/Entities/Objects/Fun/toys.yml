@@ -914,7 +914,7 @@
   parent: PlushieHuman
   id: PlushieUnholyRed
   name: Unholy red plushie
-  description: Good grief its the red.
+  description: Good grief, it's the red.
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
