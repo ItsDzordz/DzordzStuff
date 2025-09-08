@@ -92,7 +92,6 @@
           type: SurgeryBui
     - type: NightVision
       isActive: true
-      toggleAction: null
       color: "#808080"
       activateSound: null
       deactivateSound: null

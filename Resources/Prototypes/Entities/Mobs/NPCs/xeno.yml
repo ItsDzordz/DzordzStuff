@@ -8,7 +8,7 @@
   - type: Insulated
   - type: CombatMode
     canDisarm: true
-    disarmFailChance: 0.55
+    disarmFailChance: 0.60 # Floof - Dzordz -  yeah no more diasarm on wide swing
   - type: InputMover
   - type: MobMover
   - type: HTN
@@ -71,26 +71,39 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      50: Critical
-      100: Dead
+      80: Critical
+      120: Dead # Floof - Dzordz - more tanki
+  - type: Damageable
+    damageModifierSet: BaseXeno
   - type: SlowOnDamage
     speedModifierThresholds:
-      25: 0.5
+      40: 0.9
+      60: 0.8 # Floof - Dzordz - less slow down they are xenos, huge monsters, that are driven by the hive to kill, they will push past injury
+      70: 1.2 # Floof - Dzordz - last wind
   - type: Stamina
-    critThreshold: 200
+    critThreshold: 300
   - type: Bloodstream
     bloodReagent: FluorosulfuricAcid
     bloodMaxVolume: 650
   - type: LayingDown
-  - type: MeleeWeapon
-    altDisarm: true
-    angle: 0
+  - type: MeleeWeapon # Floof - Dzordz - wideswing is back
+    altDisarm: false
+    angle: 30
     soundHit:
      collection: AlienClaw
     animation: WeaponArcBite
-    damage:
-      groups:
-        Brute: 6
+    damage: # Floof - Dzordz - damge bufff
+      types:
+        Piercing: 6
+        Blunt: 4
+  - type: Devourer # Floof - Dzordz - eats to heal
+    foodPreference: Humanoid
+    shouldStoreDevoured: true
+    chemical: Ichor
+    healRate: 15.0
+    whitelist:
+      components:
+      - MobState
   - type: DamageStateVisuals
     rotate: true
     states:
@@ -147,11 +160,14 @@
     canVore: true
     canBeVored: false
   - type: NightVision # Floof - M3739 - Originally came with ThermalVision. While acceptable at EE and Goob, Floof has stricter privacy standards. Same as Rat King.
-    isActive: true
-    toggleAction: null
+    isActive: true # Floof - made it toggleable
     color: "#808080"
     activateSound: null
     deactivateSound: null
+  - type: MovementSpeedModifier # Floof - Dzordz - just fat enough to catch up to a player
+    baseWalkSpeed : 5.5
+    baseSprintSpeed : 5.5
+
 
 - type: entity
   name: Praetorian

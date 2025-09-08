@@ -2,7 +2,7 @@
   name: clown rat
   parent: MobMouse
   id: MobClownRat
-  description: Despite all their rage, they are still just a clown in a cage. Wait... YOU SET IT FREE?!
+  description: Despite all their rage, they are still just a clown in a cage. Wait... YOU SET IT FREE?! OH GOD KILL IT WITH FIRE!
   components:
   - type: Sprite
     sprite: _Floof/Mobs/Animals/clown_rat.rsi
@@ -101,7 +101,7 @@
   parent: MobClownRat
   id: MobClownRatHatchling
   suffix: Hatchling
-  description: OH GOD THEY ARE MULTIPLYING!
+  description: OH GOD THEY ARE MULTIPLYING! OH GOD KILL IT WITH FIRE!
   components:
   - type: Sprite
     scale: 0.9, 0.9
@@ -201,7 +201,7 @@
   name: crazed clown rat
   parent: [ ModuleCrazedClownRat, MobClownRat, MobCombat ]
   id: MobCrazedClownRat
-  description: Despite all their rage, they are still just a clown in a cage. Wait YOU LET IT FREE?
+  description: Despite all their rage, they are still just a clown in a cage. Wait YOU LET IT FREE? OH GOD KILL IT WITH FIRE!
   suffix: Syndicate
   components:
   - type: Destructible
@@ -267,7 +267,7 @@
   name: crazed clown rat
   parent: [ ModuleCrazedClownRat, MobClownRatHatchling , MobCombat ]
   id: MobCrazedClownRatHatchling
-  description: OH GOD THEY ARE MULTIPLYING!
+  description: OH GOD THEY ARE MULTIPLYING! OH GOD KILL IT WITH FIRE!
   suffix: Syndicate, Hatchling
   components:
   - type: Destructible
@@ -332,7 +332,7 @@
   name: crazed clown rat
   parent: [ ModuleCrazedClownRat, MobClownRatFinalHatchling, MobCombat ]
   id: MobCrazedClownRatFinalHatchling
-  description: GOD THERE IS EVEN MORE!
+  description: GOD THERE IS EVEN MORE! OH GOD KILL IT WITH FIRE!
   suffix: Syndicate, Final_Hatchling
 
       
@@ -410,12 +410,11 @@
         shape:
           !type:PhysShapeCircle
           radius: 0.25
-        density: 100
+        density: 200
         mask:
         - MachineMask
         layer:
         - MobLayer
-        - MidImpassable
         - LowImpassable
   - type: DamageStateVisuals
     states:
@@ -444,7 +443,7 @@
   - type: Temperature
     atmosTemperatureTransferEfficiency: 0.04
     heatDamageThreshold: 535
-    coldDamageThreshold: 35
+    coldDamageThreshold: -300
     currentTemperature: 310.15
     specificHeat: 46
     coldDamage:
@@ -460,7 +459,7 @@
         type: SurgeryBui
   - type: LanguageKnowledge
     speaks: [Sign]
-    understands: [Sign]
+    understands: [TauCetiBasic, Sign, Penguin]
   - type: PressureImmunity
   - type: Bloodstream
     bloodReagent: Nothing
@@ -501,4 +500,8 @@
   - type: Reflect
     reflectProb: 0.9
     spread: 350
-    
+  - type: Hands
+  - type: LayingDown
+  - type: Access
+    tags:
+    - AllAccess

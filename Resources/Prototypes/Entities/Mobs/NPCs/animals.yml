@@ -72,7 +72,6 @@
     maxTime: 160
   - type: NightVision
     isActive: true
-    toggleAction: null
     color: "#808080"
     activateSound: null
     deactivateSound: null
